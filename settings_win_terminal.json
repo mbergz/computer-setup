@@ -1,0 +1,117 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Color Scheme 11"
+        },
+        "list": 
+        [
+            {
+                "font": 
+                {
+                    "face": "MesloLGS NF",
+                    "size": 11.0
+                },
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "unfocusedAppearance": 
+                {
+                    "colorScheme": "Color Scheme Unfocused"
+                }
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#0032C7",
+            "brightBlack": "#6B6B6B",
+            "brightBlue": "#3872F2",
+            "brightCyan": "#5AC7C7",
+            "brightGreen": "#14B50B",
+            "brightPurple": "#A80094",
+            "brightRed": "#D4424F",
+            "brightWhite": "#E6E6E6",
+            "brightYellow": "#E8E19A",
+            "cursorColor": "#E8E8E8",
+            "cyan": "#368CCF",
+            "foreground": "#C2C2C2",
+            "green": "#11910D",
+            "name": "Color Scheme 11",
+            "purple": "#7D158C",
+            "red": "#B50E1C",
+            "selectionBackground": "#E6E6E6",
+            "white": "#BABABA",
+            "yellow": "#B39000"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#022DAC",
+            "brightBlack": "#6B6B6B",
+            "brightBlue": "#3872F2",
+            "brightCyan": "#4DAAAA",
+            "brightGreen": "#109709",
+            "brightPurple": "#920081",
+            "brightRed": "#B93A44",
+            "brightWhite": "#D6D6D6",
+            "brightYellow": "#D3CD8B",
+            "cursorColor": "#D8D8D8",
+            "cyan": "#2F7CB6",
+            "foreground": "#9E9E9E",
+            "green": "#0F790B",
+            "name": "Color Scheme Unfocused",
+            "purple": "#681275",
+            "red": "#990C18",
+            "selectionBackground": "#CFCFCF",
+            "white": "#A5A5A5",
+            "yellow": "#9C7D00"
+        }
+    ],
+    "startOnUserLogin": true,
+    "themes": []
+}
